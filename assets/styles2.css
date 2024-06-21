@@ -100,29 +100,84 @@ span {
     font-weight: 700;
 }
 
-.hero-section {
-    background-image: url("           ");
-    background-size: cover;
-    height: 350px;
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
+.images{
+    margin-left: 20px;
+    padding: 15px;
+    width: 300px;
+    height: 600px;
+    object-fit: contain;
+    object-position: center;
+    border-style:solid ;
+    border-color: rgb(190, 189, 189);
 }
 
-.hero-msg {
-    background-color: white;
-    color: black;
-    height: 40px;
-    display: flex;
-    align-items: center;
+.text{
+    margin-left: 30px;
+    margin-right: 30px;
     justify-content: center;
-    font-size: 0.85rem;
-    width: 96%;
-    margin-bottom: 25px;
 }
-.hero-msg a {
-    text-decoration: none;
-    color: #007185;
+
+h2{
+    color: green;
+    height: 15px;
+    margin-top: 0px;
+}
+
+h4{
+    color: red;
+}
+
+.para{
+    margin-bottom: 5px;
+}
+
+.button-group {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.button1{ 
+    font-family: Arial;
+    background-color: yellow;
+    height :36px;
+    border: none;
+    width :150px;
+    border-radius: 12px;
+    cursor: pointer;
+    margin-left: 7.5px;
+    margin-right: 15px;
+    text-align: center;
+}
+
+.button1:hover{
+    background-color: orange;  
+    box-shadow: 5px 5px 5px rgba(0,0 ,0,0.15);
+    transition: box-shadow 0.15s;
+}
+
+.button1:active{
+    background-color: brown;
+}
+
+.button2{
+    background-color: rgb(255, 216, 20);
+    border-radius: 12px;
+    height :36px;
+    border: none;
+    width :150px;
+    cursor: pointer;
+    transition: opacity 0.15s;
+}
+
+.button2:hover{
+    opacity: 0.6;   /*RANges form 0 to 1 more closer to 1 drker the hover */
+}
+.cen{
+    display: flex;
+    justify-content: center;
+    color: grey;
+    margin: 5px;
 }
 
 .shop-section {
