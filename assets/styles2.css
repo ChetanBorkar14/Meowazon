@@ -160,7 +160,7 @@ span {
 
 .rating {
     color: #9e9999;
-    font-size: 18px;
+    font-size: 15px;
 }
 
 hr {
@@ -246,6 +246,14 @@ h4 {
     margin: 5px;
 }
 
+.wrapper{
+    display: flex;
+    overflow-x:auto
+}
+.wrapper::-webkit-scrollbar{
+    width: 0;
+}
+
 .others{
     width: 200px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
@@ -280,6 +288,7 @@ h4 {
     display:contents;
     justify-content: center;
     gap: 15px;
+    align-items: center;
 }
 
 
